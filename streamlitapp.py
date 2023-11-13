@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
+from tensorflow import keras
 
 # Load the trained model
 model = tf.keras.models.load_model('C:/Users/Cicada 3301/Desktop/AI_Assignment3/TrainedModel.h5')
