@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 # Load the trained model
-model = tf.keras.models.load_model('TrainedModel.h5)
+model = tf.keras.models.load_model('TrainedModel.h5')
 
 def main():
     st.title('Churn Prediction')
